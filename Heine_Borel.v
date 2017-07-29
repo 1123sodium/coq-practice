@@ -5,7 +5,7 @@
 
 (*bool値に関する定義*)
 
-Definition Is_true (b:bool) :=
+Definition Is_true (b:bool) :Prop :=
   match b with
   | true => True
   | false => False
